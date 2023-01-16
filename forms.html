@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="./bootstrap-breakpoint.css" rel="stylesheet">
+    
+
+    <title>Forms</title>
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <form>
+
+            <label for="email" class="form-label">Email</label>
+            <input class="form-control" type="email" id="email">
+            <br>
+            <label for="email-sm" class="form-label">Email form-control-sm</label>
+            <input class="form-control form-control-sm" type="email" id="email-sm">
+            <br>
+            <label for="email-lg" class="form-label">Email form-control-lg</label>
+            <input class="form-control form-control-lg" type="email" id="email-lg">
+            <br>
+            <label for="email-disabled" class="form-label">Email disabled</label>
+            <input class="form-control" disabled type="email" id="email-disabled">
+            <br>
+            <label for="email-readonly" class="form-label">Email ReadOnly</label>
+            <input class="form-control" readonly value="rob@gmail.com" type="email" id="email-readonly">
+            <br>
+            <label for="email-plaintext" class="form-label">Email ReadOnly with PlainText</label>
+            <input class="form-control form-control-plaintext" readonly value="rob@gmail.com" type="email" id="email-plaintext">
+            <br>
+            <label for="colorpicker" class="form-label">Color Picker</label>
+            <input class="form-control form-control-color" type="color" id="colorpicker">
+            <br>
+            <label for="range" class="form-label">Range</label>
+            <input class="form-range" type="range" id="range" min="1" max="5" step="1" value="1">
+            <br>
+            <label for="select1" class="form-label">Select</label>
+            <select class="form-select" id="select1">  <!--can use disable and class="form-select-sm" or class="form-select-lg"-->
+                <option>One</option>
+                <option>Two</option>
+                <option>Three</option>
+                <option>Four</option>
+            </select>
+            <br>
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" name="checkbox1" id="checkbox1">
+                <label for="checkbox1" class="form-check-label">Check Box (form-check-inline)</label>
+            </div>
+            
+            <div class="form-check form-switch form-check-inline">
+                <input type="checkbox" class="form-check-input" name="checkbox2" id="checkbox2">
+                <label for="checkbox2" class="form-check-label">Check Box (form-switch form-check-inline)</label>
+            </div>
+            <br>
+            <button class="mt-3 mb-5">Submit</button>
+        </form>
+        <br>
+        <br>
+    </div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
