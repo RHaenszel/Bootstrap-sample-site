@@ -8,22 +8,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="./bootstrap-breakpoint.css" rel="stylesheet">
-    <title>Home</title>
+    <title>Home with Navbar</title>
 </head>
 
 <body>
     
-    
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+        <!--Copy between here-->
+        <div class="container">
+            <a href="./index.html" class="navbar-brand active">Home</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navtoggle"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navtoggle">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="./container.html" class="nav-link">Containers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./table.html" class="nav-link">Tables</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./forms.html" class="nav-link">Forms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./formvalidate.html" class="nav-link">Validate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./inputgroups.html" class="nav-link">InputGroups</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./alerts.html" class="nav-link">Alerts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./buttons.html" class="nav-link">Buttons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./cards.html" class="nav-link">Cards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./collapse.html" class="nav-link">Collapse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./modal.html" class="nav-link">Modal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--Copy stop and then paste into app.js-->
+    </nav>
 
-    <div class="container text-center border border-4">
+    <div class="container mt-3 mb-3">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae fugiat labore inventore, illum vero earum possimus ipsam deleniti? Placeat inventore perspiciatis sit laborum cumque distinctio quaerat. Doloribus fugit consequatur aliquam consectetur voluptatem eius quia dolorem natus iure, earum sunt quam itaque asperiores quisquam, voluptatum atque hic. Doloremque aliquid pariatur odit!
+    </div>
+
+
+
+    <div class="container text-center border border-4 rounded-5">
     <div class="container m-3">
         <div class="row row-cols-1 gx-2 gy-1">
-            <div class="col"><a class="btn btn-primary" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">Get started with Bootstrap</a></div>
-            <div class="col"><a class="btn btn-primary" href="./container.html">Containers, Rows, Columns</a></div>
-            <div class="col"><a class="btn btn-primary" href="./table.html">Tables</a></div>
-            <div class="col"><a class="btn btn-primary" href="./forms.html">Forms</a></div>
-            <div class="col"><a class="btn btn-primary" href="./formvalidate.html">Form Validate</a></div>
-            <div class="col"><a class="btn btn-primary" href="./inputgroups.html">Input Groups</a></div>
+            <div class="col"><a class="btn btn-primary rounded-5" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">Get started with Bootstrap</a></div>
+            
         </div>
     </div>
 
@@ -33,7 +76,7 @@
     
 
 
-
+    <script type="text/javascript" src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 </body>

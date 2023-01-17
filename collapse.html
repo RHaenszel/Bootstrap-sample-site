@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="./bootstrap-breakpoint.css" rel="stylesheet">
+    <title>Collapsible Items</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4" id="navbarID">
+        <!--Navbar is feed from app.js-->
+    </nav>
+
+    <div class="container mb-5">
+        <h1>Collapse Single</h1>
+
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#rowID" >Toggle Collapse</button>
+
+        <div class="row collapse show" id="rowID">
+            <div class="col">
+                <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, esse error! Saepe, esse ipsa tenetur earum doloribus accusantium error aliquam.</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <h1>Collapse Double</h1>
+
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#row2ID" >Toggle Collapse</button>
+
+        <div class="row collapse show" id="row2ID">
+            <div class="col">
+                <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus corrupti maxime excepturi ipsa quas dolorum distinctio soluta, odit facere.</div>
+            </div>
+        </div>
+
+        <div class="row collapse show" id="row2ID">
+            <div class="col">
+                <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem incidunt delectus, odio eaque alias atque earum similique error porro explicabo.</div>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
