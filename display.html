@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="./bootstrap-breakpoint.css" rel="stylesheet">
+    
+
+    <title>Display</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4" id="navbarID">
+        <!--Navbar is feed from app.js-->
+    </nav>
+
+    <div class="container mb-5">
+        <div class="d-block d-xl-none">
+            <b class="text-success-emphasis">This is d-block and d-xl-none. This will display LG and lower. </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ullam iste beatae laudantium corporis, accusantium magnam! Nesciunt molestias nulla earum laboriosam dignissimos inventore voluptatum placeat voluptatem. Dolorum modi atque provident iusto repellat quos odit at autem nisi praesentium? Illo, esse.
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="d-lg-block d-none">
+            <b class="text-primary">This is d-lg-block and d-none. This will display LG and higher. </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ullam iste beatae laudantium corporis, accusantium magnam! Nesciunt molestias nulla earum laboriosam dignissimos inventore voluptatum placeat voluptatem. Dolorum modi atque provident iusto repellat quos odit at autem nisi praesentium? Illo, esse.
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="d-inline bg-success-subtle p-2 me-3">
+            This is d-inline with p-2 me-3
+        </div>
+        <div class="d-inline bg-primary-subtle p-2 me-3">
+            This is d-inline with p-2 me-3
+        </div>
+        <div class="d-inline bg-warning-subtle p-2 me-3">
+            This is d-inline with p-2 me-3
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="d-block bg-success-subtle p-2 mt-3">
+            This is d-block with p-2 mt-3
+        </div>
+        <div class="d-block bg-primary-subtle p-2 mt-3">
+            This is d-block with p-2 mt-3
+        </div>
+        <div class="d-block bg-warning-subtle p-2 mt-3">
+            This is d-block with p-2 mt-3
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <h3>Justify Content</h3>
+        <b>justify-content-start</b>
+        <div class="d-flex bg-light justify-content-start mb-4">
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+        </div>
+        <b>justify-content-end</b>
+        <div class="d-flex bg-light justify-content-end mb-4">
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+        </div>
+        <b>justify-content-center</b>
+        <div class="d-flex bg-light justify-content-center mb-4">
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+        </div>
+        <b>justify-content-between</b>
+        <div class="d-flex bg-light justify-content-between mb-4">
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+        </div>
+        <b>justify-content-around</b>
+        <div class="d-flex bg-light justify-content-around mb-4">
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container mb-5">
+        <h3>Align Items</h3>
+        <b>align-items-start</b>
+        <div class="d-flex align-items-start bg-light mb-4" style="height: 100px">
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+        </div>
+        <b>align-items-end</b>
+        <div class="d-flex align-items-end bg-light mb-4" style="height: 100px">
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+        </div>
+        <b>align-items-center</b>
+        <div class="d-flex align-items-center bg-light mb-4" style="height: 100px">
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+        </div>
+        <b>align-items-baseline</b>
+        <div class="d-flex align-items-baseline bg-light mb-4" style="height: 100px">
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+        </div>
+        <b>align-items-stretch</b>
+        <div class="d-flex align-items-stretch bg-light mb-4" style="height: 100px">
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+            <div class="p-2 bg-dark-subtle">Flex Item</div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <h3>Align Self</h3>
+        <b>align-self-start</b>
+        <div class="d-flex bg-light mb-4" style="height: 100px">
+            <div class="p-2 bg-dark-subtle">Flex item</div>
+            <div class="align-self-start p-2 bg-dark-subtle">Aligned flex item</div>
+            <div class="p-2 bg-dark-subtle">Flex item</div>
+        </div>
+        <b>align-self-end</b>
+        <div class="d-flex bg-light mb-4" style="height: 100px">
+            <div class="p-2 bg-dark-subtle">Flex item</div>
+            <div class="align-self-end p-2 bg-dark-subtle">Aligned flex item</div>
+            <div class="p-2 bg-dark-subtle">Flex item</div>
+        </div>
+        <b>align-self-center</b>
+        <div class="d-flex bg-light mb-4" style="height: 100px">
+            <div class="p-2 bg-dark-subtle">Flex item</div>
+            <div class="align-self-center p-2 bg-dark-subtle">Aligned flex item</div>
+            <div class="p-2 bg-dark-subtle">Flex item</div>
+        </div>
+        <b>align-self-baseline</b>
+        <div class="d-flex bg-light mb-4" style="height: 100px">
+            <div class="p-2 bg-dark-subtle">Flex item</div>
+            <div class="align-self-baseline p-2 bg-dark-subtle">Aligned flex item</div>
+            <div class="p-2 bg-dark-subtle">Flex item</div>
+        </div>
+        <b>align-self-stretch</b>
+        <div class="d-flex bg-light mb-4" style="height: 100px">
+            <div class="p-2 bg-dark-subtle">Flex item</div>
+            <div class="align-self-stretch p-2 bg-dark-subtle">Aligned flex item</div>
+            <div class="p-2 bg-dark-subtle">Flex item</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card mb-4">
+            <div class="card-header bg-warning">Display can be used for other display properties</div>
+            <div class="card-body">
+                none, inline, inline-block, block, grid, table, table-cell, table-row, flex and inline-flex.
+            </div>
+            <div class="card-footer bg-warning"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
+
+
+
+

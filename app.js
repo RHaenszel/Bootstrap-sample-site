@@ -37,6 +37,9 @@ document.querySelector("#navbarID").innerHTML +=
         <li class="nav-item">
             <a href="./modal.html" class="nav-link">Modal</a>
         </li>
+        <li class="nav-item">
+            <a href="./display.html" class="nav-link">Display</a>
+        </li>
     </ul>
 </div>
 </div>`
